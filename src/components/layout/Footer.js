@@ -6,6 +6,12 @@ const styles = {
     flexGrow: 1,
     padding: '1.2rem',
     backgroundColor: '#263238',
+  },
+  headingText: {
+    color: '#fb4e96',
+  },
+  link: {
+    color: '#44e4ca',
   }
 }
 
@@ -15,7 +21,7 @@ class Footer extends Component {
       <div style={styles.root}>
         <Grid container>
             <Grid item xs>
-              <Typography variant="title">
+              <Typography variant="title" gutterBottom style={styles.headingText}>
                 Connect with us on social media!
               </Typography>
               <Grid container>
@@ -32,7 +38,7 @@ class Footer extends Component {
             </Grid>
 
             <Grid item xs={12} sm={4}>
-              <div>
+              <div style={styles.link}>
                 <List>
                   <ListItem>
                     Link1
