@@ -14,7 +14,6 @@ function mapStateToProps(state){
 
 class Gallery extends Component {
   componentWillMount(){
-    console.log("MOUNTING");
     this.props.fetchGalleryImages();
   };
 

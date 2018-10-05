@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Grid } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 class Location extends Component {
   render(){
@@ -27,7 +27,7 @@ class Location extends Component {
               <img style={styles.image} src="http://www.rockinrobinscafe.com/uploads/2/8/5/7/28575081/snackade-full-preview-2_1_orig.jpg"/>
             </Grid>
             <Grid item className="mobile-left center">
-              <h4>Come visit us</h4>
+              <Typography variant="headline" className="pink">Come visit us</Typography>
               <p>{this.props.street}</p>
               <p>{this.props.phone}</p>
               {/* Add hours here */}

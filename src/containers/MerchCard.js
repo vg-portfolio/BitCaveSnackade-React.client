@@ -12,82 +12,51 @@ import Grid from '@material-ui/core/Grid';
 
 const styles = {
   card: {
-    margin: '1rem',
-    // maxWidth: 345,
+    textAlign: "center"
   },
   media: {
-    height: 'auto',
+    height: '15rem',
+    margin: '0 auto',
+    backgroundSize: 'contain',
+    flexGrow: 1
   },
+  price: {
+    justifyContent: 'flex-end',
+  }
 };
-//NEED TO ADD SPACING B/W EACH CARD
-function MediaCard(props) {
-  const { classes } = props;
+
+const MerchCard = ({ image, title, details, price }) => {
   return (
-    <Grid container align-items-xs-center
-      className="container center">
-      <Grid item xs md={4}>
-        <Card className={classes.card}>
+      <Grid item xs={12} sm={6} md={4} lg={2}>
+        <Card>
           <CardActionArea>
             <CardMedia
-              className={classes.media}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="Contemplative Reptile"
+              component="img"
+              style={styles.media}
+              alt={title}
+              image={"https://img.grouponcdn.com/deal/2bBNMDFvFZz2Fi1JfPjDfnHyS5RH/2b-700x420/v1/c700x420.jpg"}
+              title={title}
             />
-            <CardContent>
+            <CardContent style={styles.card}>
               <Typography gutterBottom variant="headline" component="h2">
-                Lizard
+                {title}
               </Typography>
               <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
+                {details}
               </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
+          <CardActions style={styles.price}>
+            <Typography variant="subheading">
+              {price}
+            </Typography>
           </CardActions>
         </Card>
       </Grid>
-      <Grid item xs md>
-        <Card className={classes.card}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="Contemplative Reptile"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="headline" component="h2">
-                Lizard
-              </Typography>
-              <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
-          </CardActions>
-        </Card>
-      </Grid>
-    </Grid>
+
 
   );
 }
 
-MediaCard.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
-export default withStyles(styles)(MediaCard);
+export default (MerchCard);

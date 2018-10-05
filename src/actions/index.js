@@ -1,4 +1,6 @@
 //Data
+import { merchData } from './data';
+
 const siteData = {
   header: "BitCave",
   aboutSection: "this is the body. There is more info here",
@@ -22,8 +24,11 @@ const siteData = {
 
 }
 
+
 //TYPES
 export const FETCH_SITE_INFO = 'FETCH_SITE_INFO';
+export const FETCH_MERCH_DATA = 'FETCH_MERCH_DATA';
+export const UPDATE_MERCH_ITEM = 'UPDATE_MERCH_ITEM';
 export const FETCH_GALLERY = 'FETCH_GALLERY';
 
 //Action creators
@@ -40,5 +45,23 @@ export function fetchGalleryImages(){
   return {
     type: FETCH_GALLERY,
     payload: request.images
+  };
+}
+
+export function fetchMerchData(){
+  const request = merchData;
+  console.log("REQUEST", request);
+  return {
+    type: FETCH_MERCH_DATA,
+    payload: request
+  };
+}
+
+//Currently does the same thing as fetchMerchData()
+export function updateMerchItem(){
+  const request = merchData;
+  return {
+    type: UPDATE_MERCH_ITEM,
+    payload: request
   };
 }

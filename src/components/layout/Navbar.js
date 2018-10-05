@@ -26,7 +26,7 @@ class Navbar extends Component {
   render(){
     return (
       <div style={styles.root}>
-        <AppBar position="static">
+        <AppBar position="static" className="black">
           <Toolbar>
             <Typography variant="display1" color="inherit" style={styles.grow}>
               <Link to='/' style={styles.link}>
@@ -36,7 +36,9 @@ class Navbar extends Component {
             <Typography variant="title" color="inherit" style={styles.secondaryColor}>
               <Link to='/promos' className="navlink" style={styles.link}>Promos</Link>
             </Typography>
-
+            <Typography variant="title" className="pink" style={styles.secondaryColor}>
+              |
+            </Typography>
             <Typography variant="title"  color="inherit" style={styles.secondaryColor}>
               <Link to='/merch' style={styles.link}>Merch</Link>
             </Typography>
