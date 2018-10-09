@@ -7,6 +7,10 @@ body {
   font-family: sans-serif;
 }
 
+a:hover {
+  color: #fb4e96 !important;
+}
+
 .container {
   padding: 2rem;
 }
@@ -24,6 +28,14 @@ body {
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(2px); */
+}
+.nylon-cat-container {
+  padding-top: 10rem;
+  padding-left: 2rem;
+}
+.nylon-cat {
+  height: 3rem;
+  right: 0;
 }
 
 .bitcave-link {

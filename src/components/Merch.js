@@ -42,6 +42,7 @@ class MerchSection extends Component {
         backgroundColor: '#44e4ca',
       },
       description: {
+        backgroundColor: 'rgba(0,0,0,0.5)',
         color: 'white'
       },
       merchItemContainer: {

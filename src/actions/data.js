@@ -40,3 +40,29 @@ export const merchData = {
     },
   ]
 };
+
+export const promoData = {
+  heading:      "Promos",
+  description:  "This is a description. This is a description. This is a description. This is a description. This is a description. This is a description. This is a description.",
+
+  items: [
+    {
+      id:"1",
+      name:"Free frosty when you spend $20 or more!",
+      description:"This is a description. This is a description. This is a description",
+      imageUrl:"../images/black_shirt.jpg"
+    },
+    {
+      id:"2",
+      name:"$5 off every $20 purchase!",
+      description:"This is a description. This is a description. This is a description",
+      imageUrl:"../images/black_shirt.jpg"
+    },
+    {
+      id:"3",
+      name:"10% off all t-shirts and japanese snack products",
+      description:"This is a description. This is a description. This is a description",
+      imageUrl:"../images/black_shirt.jpg"
+    },
+  ]
+};

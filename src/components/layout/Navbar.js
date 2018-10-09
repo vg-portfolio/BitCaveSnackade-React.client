@@ -33,13 +33,13 @@ class Navbar extends Component {
               BitCave</Link>
             </Typography>
 
-            <Typography variant="title" color="inherit" style={styles.secondaryColor}>
+            <Typography variant="title" className="navlink-hover" color="inherit" style={styles.secondaryColor}>
               <Link to='/promos' className="navlink" style={styles.link}>Promos</Link>
             </Typography>
             <Typography variant="title" className="pink" style={styles.secondaryColor}>
               |
             </Typography>
-            <Typography variant="title"  color="inherit" style={styles.secondaryColor}>
+            <Typography variant="title" className="navlink-hover"  color="inherit" style={styles.secondaryColor}>
               <Link to='/merch' style={styles.link}>Merch</Link>
             </Typography>
           </Toolbar>

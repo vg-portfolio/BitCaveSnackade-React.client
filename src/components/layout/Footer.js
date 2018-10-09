@@ -23,6 +23,7 @@ const styles = {
     backgroundColor: '#263238',
     color: 'white',
     position: 'absolute',
+    textAlign: 'center',
     left: 0,
     padding: '1rem'
   }
@@ -72,7 +73,7 @@ class Footer extends Component {
 
           <Grid container justify="center" style={styles.copyright}>
             <Typography variant="body1" color="inherit">
-              © 2018 Copyright www.BitCave.com <span className="green">|</span> Developed by <a className="green bitcave-link" href="https://vincentguo.net">ProjectVizna</a>
+              © 2018 Copyright <span className="green">|</span> www.BitCave.com <span className="green">|</span> Developed by <a className="green bitcave-link" href="https://vincentguo.net">ProjectVizna</a>
             </Typography>
           </Grid>
       </div>

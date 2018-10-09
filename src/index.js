@@ -11,6 +11,7 @@ import App from './App';
 import Contact from './components/Contact';
 import { Navbar, Footer } from './components/layout';
 import Merch from './components/Merch';
+import Promo from './components/Promo';
 
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -34,7 +35,7 @@ ReactDOM.render(
             <Switch>
               <Route exact path="/" component={App}/>
               <Route path="/merch" component={Merch}/>
-              <Route path="/contact" component={Contact}/>
+              <Route path="/promos" component={Promo}/>
               {/* <Route path="/posts/new" component={PostNew}/>
               <Route path="/posts/:id" component={PostShow}/>
               <Route path="/" component={PostIndex}/> */}
