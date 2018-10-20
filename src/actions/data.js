@@ -5,85 +5,85 @@ export const merchData = {
   items: [
     {
       id:"5",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fbalck%20t.jpg?alt=media&token=8b4f0eb6-b8ad-4410-9909-81b9909988e3",
       price: "$25.00"
     },
     {
       id:"6",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fblack%20jacket.jpg?alt=media&token=6335f2ed-dfba-4a3f-b35a-23683b7a4896",
       price: "$25.00"
     },
     {
       id:"7",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fblue%20jacket.jpg?alt=media&token=c845b315-f7d5-40af-be94-e02bf5cdf13b",
       price: "$25.00"
     },
     {
       id:"8",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fcat%20pin.jpg?alt=media&token=01a1821e-3f82-4a34-b508-3c94e1fed4d1",
       price: "$25.00"
     },
     {
       id:"9",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fhats.jpg?alt=media&token=e0fac46b-c8fd-45d6-8ff5-022c9869851f",
       price: "$25.00"
     },
     {
       id:"10",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fjean%20jacket.jpg?alt=media&token=e688d653-c623-4bce-8685-305b224d4f30",
       price: "$25.00"
     },
     {
       id:"11",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Ftshirts.jpg?alt=media&token=7d7b2955-a4ac-4f4f-b351-07a4a14a53d2",
       price: "$25.00"
     },
     {
       id:"12",
-      name:"Rare Ass Item",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Ftwo%20black%20hats.jpg?alt=media&token=80db0f8a-746a-4101-b7c5-8ecc85f54c42",
       price: "$25.00"
     },
     {
       id:"1",
-      name:"Black T-shirt",
+      name:"item",
       description:"THis is a black t-shirt you can buy.",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F26198489_262872517578388_1209464344577721290_o.jpg?alt=media&token=533ed3aa-7aa9-45b6-a8af-ab77ae7d7a67",
       price: "$15.00"
     },
     {
       id:"2",
-      name:"Another Black T-shirt",
+      name:"item",
       description:"THis is a black t-shirt you can buy.",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F29314651_290828584782781_7016204479632506880_o.jpg?alt=media&token=4124596c-15c8-4ef1-8869-9e0bef02f8a6",
       price: "$15.00"
     },
     {
       id:"3",
-      name:"Crazy Toy",
+      name:"item",
       description:"THis is a Green toiy you can buy.",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2Fbackpack.jpg?alt=media&token=7bf7956b-96a9-49e1-9dda-683b3a992ec4",
       price: "$15.00"
     },
     {
       id:"4",
-      name:"Another Crazy Toy",
-      description:"THis is a Red toiy you can buy.",
+      name:"item",
+      description:"Item for sale",
       imageUrl:"https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F31252926_306458536553119_4289969792313458688_o.jpg?alt=media&token=d46ca7e1-c0c9-4480-b6f4-8aca5912dc11",
       price: "$15.00"
     },
