@@ -22,6 +22,7 @@ const promoStyle = {
   },
   promoItemContainer: {
     padding: '2rem',
+    width: '100%'
   }
 };
 
@@ -57,7 +58,7 @@ class PromoSection extends Component {
       className="center"
       style={promoStyle.root}>
 {/* Promos banner */}
-        <Grid className="promo-container" justify="center" container item xs={12}>
+        <Grid className="promo-container" justify="center" container item>
           <Grid item className="text-container container">
             <Typography className="green" variant="display2" style={promoStyle.heading}>
               {this.props.promoData.promoData.heading}
@@ -68,7 +69,7 @@ class PromoSection extends Component {
           </Grid>
         </Grid>
 {/* Cards with data container */}
-        <Grid container item spacing={32} style={promoStyle.promoItemContainer}>
+        <Grid container item spacing={8} justify="center" style={promoStyle.promoItemContainer}>
           {this.renderPromoData()}
         </Grid>
 {/* Nylon cat gif */}

@@ -20,7 +20,9 @@ const merchStyle = {
     color: 'white'
   },
   merchItemContainer: {
-    padding: '2rem'
+    padding: '2rem',
+    width: '100%',
+    margin: '0 auto'
   }
 };
 
@@ -68,7 +70,7 @@ class MerchSection extends Component {
           </Grid>
         </Grid>
 {/* Merch data cards container */}
-        <Grid container item spacing={32} style={merchStyle.merchItemContainer}>
+        <Grid container item spacing={16} justify='center' style={merchStyle.merchItemContainer}>
           {this.renderMerchData()}
         </Grid>
       </Grid>
