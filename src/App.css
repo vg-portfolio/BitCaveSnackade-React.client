@@ -10,7 +10,10 @@
 html, main {
   background-color: #111111,
 }
-body::-webkit-scrollbar {
+
+/* Removes vertical scroll bar */
+
+::-webkit-scrollbar {
 display: none !important;
 }
 
