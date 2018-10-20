@@ -36,9 +36,6 @@ ReactDOM.render(
               <Route exact path="/" component={App}/>
               <Route path="/merch" component={Merch}/>
               <Route path="/promos" component={Promo}/>
-              {/* <Route path="/posts/new" component={PostNew}/>
-              <Route path="/posts/:id" component={PostShow}/>
-              <Route path="/" component={PostIndex}/> */}
             </Switch>
           </main>
           <footer>

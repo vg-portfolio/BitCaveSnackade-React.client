@@ -24,7 +24,7 @@ class Location extends Component {
         <Grid justify='center'
           container spacing={32}>
             <Grid item>
-              <img style={styles.image} src="http://www.rockinrobinscafe.com/uploads/2/8/5/7/28575081/snackade-full-preview-2_1_orig.jpg"/>
+              <img style={styles.image} src="https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F37032744_352891988576440_5188590810219675648_o.jpg?alt=media&token=911d1c25-4111-4342-a668-4edfb204dcf6"/>
             </Grid>
             <Grid item className="mobile-left center">
               <Typography variant="headline" className="pink">Come visit us</Typography>

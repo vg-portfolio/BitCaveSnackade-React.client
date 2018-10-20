@@ -1,5 +1,5 @@
 //Data
-import { merchData, promoData } from './data';
+import { merchData, promoData, galleryImages } from './data';
 
 const siteData = {
   header: "BitCave",
@@ -35,6 +35,9 @@ export const FETCH_PROMOS = 'FETCH_PROMOS';
 //Action creators
 export function fetchMainSiteInfo(){
   const request = siteData;
+  // const storageRef = storage.ref();
+  // const request = storageRef.child('images');
+  console.log("REQUEST", request);
   return {
     type: FETCH_SITE_INFO,
     payload: request
@@ -42,10 +45,10 @@ export function fetchMainSiteInfo(){
 }
 
 export function fetchGalleryImages(){
-  const request = siteData;
+  const request = galleryImages;
   return {
     type: FETCH_GALLERY,
-    payload: request.images
+    payload: request
   };
 }
 

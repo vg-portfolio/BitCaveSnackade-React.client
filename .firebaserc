@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "bitcave": "bit-cave",
+    "default": "bit-cave"
+  }
+}

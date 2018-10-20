@@ -21,22 +21,25 @@ class Gallery extends Component {
     const galleryStyle = {
       section: {
         flexGrow: 1,
-        padding: '4rem 2rem',
         backgroundColor: 'black'
+      },
+      loading: {
+        paddingTop: '2.5rem',
+        paddingBottom: '2.5rem',
+        textAlign: 'center'
       }
     }
+    if (this.props.siteData.gallery <= 0) {
+      return ( <div style={galleryStyle.loading}>LOADING Gallery...</div>)
+    }
 
-    return (
-      <div style={galleryStyle.section}>
-        <Grid container spacing={16} justify='center'>
-            {this.props.siteData.gallery.map(image => (
-              <Grid item xs={4} md={3} lg={2} key={image}>
-                <ImageCard title={image}/>
-              </Grid>
-            ))}
-        </Grid>
-      </div>
-    )
+      return (
+        <div style={galleryStyle.section}>
+          <Grid container justify='center'>
+            <ImageCard images={this.props.siteData.gallery}/>
+          </Grid>
+        </div>
+      )
   }
 }
 
