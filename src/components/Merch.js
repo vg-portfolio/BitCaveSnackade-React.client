@@ -41,7 +41,12 @@ class MerchSection extends Component {
       root: {
         backgroundColor: '#44e4ca',
       },
+      heading: {
+        marginBottom: 5
+      },
       description: {
+        paddingTop: 15,
+        paddingBottom: 15,
         backgroundColor: 'rgba(0,0,0,0.5)',
         color: 'white'
       },

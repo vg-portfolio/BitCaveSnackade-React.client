@@ -41,7 +41,12 @@ class PromoSection extends Component {
         backgroundColor: '#fb4e96',
         backgroundSize: 'contain'
       },
+      heading: {
+        marginBottom: 5
+      },
       description: {
+        paddingBottom: 15,
+        paddingTop: 15,
         backgroundColor: 'rgba(0,0,0,0.5)',
         color: 'white'
       },

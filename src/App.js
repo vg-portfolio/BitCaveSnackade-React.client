@@ -30,7 +30,9 @@ class App extends Component {
       header,
       aboutSection,
       location,
-      phone } = this.props.siteInfo.siteData;
+      phone,
+      hours,
+      hours2 } = this.props.siteInfo.siteData;
       // console.log("YASS", this.props.siteInfo);
 
     return (
@@ -39,7 +41,7 @@ class App extends Component {
           siteTitle={header}
           details={aboutSection}/>
 
-        <Location street={location} phone={phone}/>
+        <Location street={location} phone={phone} hours={hours} hours2={hours2}/>
         <Gallery />
         {/* <h1 className="App-title">{this.props.siteInfo.data.header}</h1>
         <p className="App-intro">

@@ -6,21 +6,14 @@ const siteData = {
   aboutSection: "this is the body. There is more info here",
 
   locationHeading: "Come find us...",
-  location: "123 Fake St, Lowell MA 01851",
+  location: "16 Branch St, Lowell, MA 01851",
+  hours: '10:30am - 8pm',
+  hours2: '11am - 7pm',
 
   contactHeading: "Contact us",
-  phone: "(978)999-9999",
-  email: "123Fakemail@fake.com",
-  facebook:"facebook.com",
-  instagram:"instagram.com",
-
-  images: ['first', 'second', 'third', 'fourth'],
-
-  promotionHeading: "Things are happening!",
-  promotionDescription: "Come do stuff with us and stuff",
-
-  merchHeading: "Check out our Merch!",
-  merchDescription: "Buy our stuff yo and you will be kool in skool",
+  phone: "(978) 710-5559",
+  facebook:"https://www.facebook.com/BitcaveSnackade/",
+  instagram:"https://www.instagram.com/bit_cave/",
 
 }
 

@@ -42,12 +42,15 @@ class Footer extends Component {
                 Connect with us on social media!
               </Typography>
               <Grid item xs={12} className="center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"
+                <a href="https://www.facebook.com/BitcaveSnackade/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"
                 alt="facebook"/>
-                <img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Twitter-icon.png"
-                alt="twitter"/>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                </a>
+
+                <a href="https://www.instagram.com/bit_cave/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
                 alt="instagram"/>
+                </a>
               </Grid>
             </Grid>
 
