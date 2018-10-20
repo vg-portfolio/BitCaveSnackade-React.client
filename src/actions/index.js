@@ -28,9 +28,6 @@ export const FETCH_PROMOS = 'FETCH_PROMOS';
 //Action creators
 export function fetchMainSiteInfo(){
   const request = siteData;
-  // const storageRef = storage.ref();
-  // const request = storageRef.child('images');
-  console.log("REQUEST", request);
   return {
     type: FETCH_SITE_INFO,
     payload: request
@@ -47,7 +44,6 @@ export function fetchGalleryImages(){
 
 export function fetchMerchData(){
   const request = merchData;
-  console.log("REQUEST", request);
   return {
     type: FETCH_MERCH_DATA,
     payload: request
@@ -55,13 +51,13 @@ export function fetchMerchData(){
 }
 
 //Currently does the same thing as fetchMerchData()
-export function updateMerchItem(){
-  const request = merchData;
-  return {
-    type: UPDATE_MERCH_ITEM,
-    payload: request
-  };
-}
+// export function updateMerchItem(){
+//   const request = merchData;
+//   return {
+//     type: UPDATE_MERCH_ITEM,
+//     payload: request
+//   };
+// }
 
 export function fetchPromoData(){
   const request = promoData;

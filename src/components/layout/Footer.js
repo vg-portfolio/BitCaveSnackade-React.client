@@ -1,11 +1,7 @@
-import React, { Component, Fragment } from 'react';
-import  { Link, NavLink } from 'react-router-dom';
+import React, { Component } from 'react';
+import  { Link } from 'react-router-dom';
 
-import { Grid, Typography, List, Paper, ListItem, ListItemText } from '@material-ui/core';
-import Icon from '@material-ui/core/Icon';
-import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
-
-
+import { Grid, Typography, List, ListItem } from '@material-ui/core';
 
 const styles = {
   root: {
@@ -42,12 +38,12 @@ class Footer extends Component {
                 Connect with us on social media!
               </Typography>
               <Grid item xs={12} className="center">
-                <a href="https://www.facebook.com/BitcaveSnackade/" target="_blank">
+                <a href="https://www.facebook.com/BitcaveSnackade/" target="_blank" rel="noopener noreferrer">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"
                 alt="facebook"/>
                 </a>
 
-                <a href="https://www.instagram.com/bit_cave/" target="_blank">
+                <a href="https://www.instagram.com/bit_cave/" target="_blank" rel="noopener noreferrer">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
                 alt="instagram"/>
                 </a>
@@ -76,7 +72,8 @@ class Footer extends Component {
 
           <Grid container justify="center" style={styles.copyright}>
             <Typography variant="body1" color="inherit">
-              © 2018 Copyright <span className="green">|</span> www.BitCave.com <span className="green">|</span> Developed by <a className="green bitcave-link" href="https://vincentguo.net">ProjectVizna</a>
+              © 2018 Copyright <span className="green">|</span> www.BitCaveSnackade.com <span className="green">|</span> Developed by <a className="green bitcave-link"
+                target="_blank" rel="noopener noreferrer" href="https://vincentguo.net">ProjectVizna</a>
             </Typography>
           </Grid>
       </div>

@@ -2,39 +2,36 @@ import React, { Component } from 'react';
 
 import { Grid, Typography } from '@material-ui/core';
 
-class Location extends Component {
-  render(){
-///////STYLES
+//STYLES
     const styles = {
       root: {
         backgroundColor: '#80CBC4',
         padding: '2rem 1rem',
         flexGrow: 1,
       },
-      // subtitle: {
-      //   color: 'gray',
-      //   size: '0.3em',
-      // },
       image: {
         height: '15rem',
         maxWidth: '100%'
       },
       imageContainer: {
         display: 'flex',
-        // justifyContent: 'center',
         alignItems: 'center',
         alignContent: 'center',
         overflow: 'hidden',
       }
     }
 
+class Location extends Component {
+  render(){
     return (
       <div style={styles.root}>
         <Grid style={styles.imageContainer} justify='center'
           container spacing={32}>
+{/* Image container */}
             <Grid item style={styles.imageContainer}>
-              <img style={styles.image} src="https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F37032744_352891988576440_5188590810219675648_o.jpg?alt=media&token=911d1c25-4111-4342-a668-4edfb204dcf6"/>
+              <img style={styles.image} src="https://firebasestorage.googleapis.com/v0/b/bit-cave.appspot.com/o/images%2F37032744_352891988576440_5188590810219675648_o.jpg?alt=media&token=911d1c25-4111-4342-a668-4edfb204dcf6" alt=""/>
             </Grid>
+{/* Text container */}
             <Grid item className="mobile-left center">
               <Typography variant="headline" className="pink">Come find us</Typography>
               <h4>{this.props.street}</h4>

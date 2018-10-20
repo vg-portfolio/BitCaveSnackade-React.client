@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 
-
+//STYLES
 const style = {
   root: {
     display: 'flex',
@@ -21,10 +21,6 @@ const style = {
 }
 
 const Images = ({ images }) => {
-  const imageCard = {
-    backgroundColor: '#fb4e96'
-  }
-
   return (
     <div style={style.root}>
       <GridList cellHeight={160} style={style.gridList} cols={4}>

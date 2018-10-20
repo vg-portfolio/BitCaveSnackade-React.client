@@ -8,15 +8,11 @@ const INITIAL_STATE = {
 export default function (state = INITIAL_STATE, action){
   switch (action.type) {
     case FETCH_SITE_INFO:
-    console.log("FETCHING SITE INFO IN REDUCER");
-    console.log(action.payload);
       return {
         ...state,
         siteData: action.payload };
 
       case FETCH_GALLERY:
-      console.log("FETCHING GALLERY");
-      console.log(action.payload);
         return {
           ...state,
           gallery: [...action.payload] };
